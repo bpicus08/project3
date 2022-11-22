@@ -167,3 +167,12 @@ iframe{
 	top: 10px;
 	border: 0px;
 }
+#map{
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	right: 20%;
+	top: 14%;
+	border: solid red 5px;
+	border-radius: 10px;
+}
