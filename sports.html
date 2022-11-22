@@ -8,10 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-  <script src="jquery.bxslider.min.js"></script>
-  <link href="jquery.bxslider.css" rel="stylesheet" />
-  <script src="js/slider.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <!-- End WOWSlider.com HEAD section -->
+
   
 </head>
 <body>
@@ -47,22 +48,30 @@
       <p> <iframe width="720" height="405" src="https://www.youtube.com/embed/5BNrx2ESlo4" title="Nyjer Morgans Walkoff hit to advance the Brewers" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </main>
   <h1>Wisconsin Sports Legends</h1>
-<div class="slideshow">
-		<ul class="bxslider">
-			<li><img src="images/rodgers.jpg" /></li>
-			<li><img src="images/braun.jpg" /></li>
-			<li><img src="images/yount.jpg" /></li>
-			<li><img src="images/giannis.jpg" /></li>
-		    <li><img src="images/favre.jpg" /></li>
-			<li><img src="images/kareem.jpg" /></li>
-		</ul>
-	</div>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('.bxslider').bxSlider({
-				mode: 'fade'
-			});
-		});
-	</script>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/braun.jpg" alt="braun" title="braun" id="wows1_0"/></li>
+		<li><img src="data1/images/favre.jpg" alt="favre" title="favre" id="wows1_1"/></li>
+		<li><img src="data1/images/giannis.jpg" alt="giannis" title="giannis" id="wows1_2"/></li>
+		<li><img src="data1/images/kareem.jpg" alt="kareem" title="kareem" id="wows1_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/rodgers.jpg" alt="javascript carousel" title="rodgers" id="wows1_4"/></a></li>
+		<li><img src="data1/images/yount.jpg" alt="yount" title="yount" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="braun"><span><img src="data1/tooltips/braun.jpg" alt="braun"/>1</span></a>
+		<a href="#" title="favre"><span><img src="data1/tooltips/favre.jpg" alt="favre"/>2</span></a>
+		<a href="#" title="giannis"><span><img src="data1/tooltips/giannis.jpg" alt="giannis"/>3</span></a>
+		<a href="#" title="kareem"><span><img src="data1/tooltips/kareem.jpg" alt="kareem"/>4</span></a>
+		<a href="#" title="rodgers"><span><img src="data1/tooltips/rodgers.jpg" alt="rodgers"/>5</span></a>
+		<a href="#" title="yount"><span><img src="data1/tooltips/yount.jpg" alt="yount"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v9.0</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
 </body>
 </html>
