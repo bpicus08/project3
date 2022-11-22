@@ -1,22 +1,15 @@
- var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 33.627360, lng: -111.927570},
-          zoom: 18
-        });
-      }
- function initMap() {
-  const myLatLng = {lat: 33.627360, lng: -111.927570},
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 18,
-    center: myLatLng,
+function initMap() {
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15.5,
+    center: { lat: 41.877359882395616, lng: -87.61193120547523},
   });
-
-  new google.maps.Marker({
-    position: myLatLng,
-    map,
-    title: "This is my Highschool!",
+  var marker = new google.maps.Marker({
+    position: { lat: 41.883949366404, lng: -87.61204036541213},
+    map: map,
   });
+  var infowindow = new google.maps.InfoWindow({
+    content:"This is the location of the Yacht Club that I sail out of. The red circle is the area where we usually sail during practice."
+  });
+  infowindow.open(map, marker);
 }
-
 window.initMap = initMap;
