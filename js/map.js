@@ -1,14 +1,14 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15.5,
-    center: { lat: 41.877359882395616, lng: -87.61193120547523},
+    center: { lat: 33.526842, lng: -111.906332},
   });
   var marker = new google.maps.Marker({
-    position: { lat: 41.883949366404, lng: -87.61204036541213},
+    position: { lat: 33.526842, lng: -111.906332},
     map: map,
   });
   var infowindow = new google.maps.InfoWindow({
-    content:"This is the location of the Yacht Club that I sail out of. The red circle is the area where we usually sail during practice."
+    content:"(SAGUARO HIGHSCHOOL) This is where I went to high school!!!"
   });
   infowindow.open(map, marker);
 }
