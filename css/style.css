@@ -42,11 +42,6 @@ header {
   text-align: center;
 }
 
-@media only screen and (min-width: 600px){
-	#resumebody li{
-		text-align: center;
-	}
-
 h1 {
   text-align: center;
   background-color: #3364F5;
@@ -173,10 +168,6 @@ iframe{
 	border: 0px;
 }
 
-@media only screen and (min-width: 600px){
-	#sportsbody li{
-		text-align: center;
-	}
 #map{
 	position: absolute;
 	width: 70%;
