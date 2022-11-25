@@ -171,10 +171,11 @@ iframe{
 
 #map{
 	position: absolute;
-	width: 70%;
-	height: 70%;
+	width: 50%;
+	height: 40%;
 	right: 20%;
-	top: 14%;
+	top: 6%;
+	margin-top: 10px;
 	border: solid red 5px;
 	border-radius: 10px;
 }
