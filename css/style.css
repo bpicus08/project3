@@ -123,51 +123,6 @@ h3 {
   padding:5px;
 }
 
-#pack{
-  margin:2px;
-  padding: 2px;
-  font-size: 20px;
-  text-align: center;
-}
-
-#buck{
-  margin:2px;
-  padding: 2px;
-  font-size: 20px;
-  text-align: center;
-}
-
-#brew{
-  margin:2px;
-  padding: 2px;
-  font-size: 20px;
-  text-align: center;
-}
-
-#packers{
-  width: 680px; 
-  height: 380px; 
-  border: 10px solid yellow;  
-  position: relative;  
-  left:420px;
-  top: 10px;
-}
-#bucks{
-  width: 680px; 
-  height: 380px; 
-  border: 10px solid blue;    
-  position: relative;  
-  left:420px;
-  top: 10px;
-}
-iframe{
-	width: 680px;
-	top: 380px;
-	position: relative;
-	left: 420px;
-	top: 10px;
-	border: 0px;
-}
 
 #map{
 	position: absolute;
@@ -178,4 +133,71 @@ iframe{
 	margin-top: 10px;
 	border: solid red 5px;
 	border-radius: 10px;
+}
+ @media screen and (min-width: 600px){
+	#summary{
+		padding: 0;
+		margin-right: auto;
+		margin-left: auto;
+		list-style: none;
+		text-align: center;
+	}
+}
+	 
+@media screen and (min-width: 600px){
+	.sporting{
+		padding: 0;
+		margin-right: auto;
+		margin-left: auto;
+		list-style: none;
+		text-align: center;
+	}
+	
+	#pack{
+  margin:2px;
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+	}
+	
+	#buck{
+  margin:2px;
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+	}
+	
+	#brew{
+  margin:2px;
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+	}
+	
+	#packers{
+  width: 680px; 
+  height: 380px; 
+  border: 10px solid yellow;  
+  position: relative;  
+  left:420px;
+  top: 10px;
+	}
+	
+	#bucks{
+  width: 680px; 
+  height: 380px; 
+  border: 10px solid blue;    
+  position: relative;  
+  left:420px;
+  top: 10px;
+	}
+	
+	iframe{
+	width: 680px;
+	top: 380px;
+	position: relative;
+	left: 420px;
+	top: 10px;
+	border: 0px;
+	}
 }
